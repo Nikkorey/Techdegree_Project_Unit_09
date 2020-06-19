@@ -1,92 +1,120 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
+<html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <title></title>
-    <link rel="stylesheet" href="style.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Nikko Hular | Front End Web Developer</title>
+    <!--Font awesome CDN-->
     <link
       rel="stylesheet"
-      href="https://use.fontawesome.com/releases/v5.13.0/css/all.css"
-      integrity="sha384-Bfad6CLCknfcloXFOyFnlgtENryhrpZCe29RTifKEixXQZ38WheV+i/6YWSzkz3V"
-      crossorigin="anonymous"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
   <body>
-    <!-- Skill Section -->
-    <section class="skill-section">
-      <div class="inner-width">
-        <h1 class="section-title">My Skills</h1>
-        <div class="border"></div>
-        <div class="skill-container">
-          <div class="skill-box">
-            <div class="skill-icon">
-              <i class="fab fa-html5"></i>
-            </div>
-            <div class="skill-title">HTML5</div>
-            <div class="skill-desc">
-              Is a markup language that we use to create structure and give
-              meaning to a web content,
-            </div>
+    <!-- Start of Header -->
+    <header class="header">
+      <div class="container">
+        <nav class="nav">
+          <a href="index.html" class="logo">
+            <img src="images/Logo 1.png" alt="" />
+          </a>
+          <div class="hamburger-menu">
+            <i class="fas fa-bars"></i>
+            <i class="fas fa-times"></i>
           </div>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Skills</a>
+            </li>
+            <li class="nav-item">
+              <a href="index.html" class="nav-link">Portfolio</a>
+            </li>
+            <li class="nav-item">
+              <a href="#" class="nav-link">Contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+    <!-- End of Header -->
 
-          <div class="skill-box">
-            <div class="skill-icon">
-              <i class="fab fa-css3-alt"></i>
-            </div>
-            <div class="skill-title">CSS3</div>
-            <div class="skill-desc">
-              A language of style rules that we use to apply in styling the HTML
-              content.
-            </div>
+    <!-- Start of Main -->
+    <main>
+      <div class="hero">
+        <div class="container">
+          <div class="main-heading">
+            <h1 class="title">Hi I'm Nikko</h1>
+            <p class="subtitle">Front End Web Developer</p>
+            <p>Get in touch</p>
           </div>
+        </div>
+      </div>
+    </main>
+    <!-- End of Main -->
 
-          <div class="skill-box">
-            <div class="skill-icon">
-              <i class="fab fa-js-square"></i>
-            </div>
-            <div class="skill-title">Javascript</div>
-            <div class="skill-desc">
-              A scripting language that enables to create dynamically updating
-              content.
-            </div>
+    <!-- Start of Skills Section -->
+    <section class="skills">
+      <div class="container">
+        <h2>Skills Set</h2>
+        <div class="skills-wrapper">
+          <div class="skills-icon">
+            <img src="/images/skills/HTML.png" alt="HTML Icon" />
           </div>
-
-          <div class="skill-box">
-            <div class="skill-icon">
-              <i class="fab fa-sass"></i>
-            </div>
-            <div class="skill-title">SASS</div>
-            <div class="skill-desc">
-              Used by many developers to make styling web pages with CSS easier
-              and faster.
-            </div>
+          <div class="skills-icon">
+            <img src="/images/skills/CSS3.png" alt="HTML Icon" />
           </div>
-
-          <div class="skill-box">
-            <div class="skill-icon">
-              <i class="fab fa-bootstrap"></i>
-            </div>
-            <div class="skill-title">Bootstrap 4</div>
-            <div class="skill-desc">
-              A free and open-source CSS framework directed at responsive,
-              mobile-first front-end web development.
-            </div>
+          <div class="skills-icon">
+            <img src="/images/skills/javascript.png" alt="HTML Icon" />
           </div>
-
-          <div class="skill-box">
-            <div class="skill-icon">
-              <i class="fab fa-git-alt"></i>
-            </div>
-            <div class="skill-title">Git & Github</div>
-            <div class="skill-desc">
-              A version control system which manages the different versions of
-              project files.
-            </div>
+          <div class="skills-icon">
+            <img src="/images/skills/bootstrap.png" alt="HTML Icon" />
+          </div>
+          <div class="skills-icon">
+            <img src="/images/skills/sass.png" alt="HTML Icon" />
+          </div>
+          <div class="skills-icon">
+            <img src="/images/skills/github.png" alt="HTML Icon" />
+          </div>
+          <div class="skills-icon">
+            <img src="/images/skills/photoshop.png" alt="HTML Icon" />
           </div>
         </div>
       </div>
     </section>
-    <!-- End of Skill Section -->
+    <!-- End of Skills Section -->
+
+    <!-- Start of Footer -->
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-wrapper">
+          <div class="footer-social">
+            <a href="https://www.google.com/"><i class="fab fa-twitter"></i></a>
+            <a href=""><i class="fab fa-facebook"></i></a>
+            <a href=""><i class="fab fa-instagram"></i></a>
+            <a href=""><i class="fab fa-youtube"></i></a>
+          </div>
+          <a href="index.html" class="logo">
+            <img src="images/skills/footer-logo.png" alt="" />
+          </a>
+          <div class="footer-copyright">
+            <p>Copyright Nikko Hular 2020</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- End of footer -->
+
+    <script src="main.js"></script>
   </body>
 </html>

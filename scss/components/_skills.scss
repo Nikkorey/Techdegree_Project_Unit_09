@@ -1,0 +1,18 @@
+/* skills section */
+
+.skills {
+  margin: 5rem 0;
+}
+
+.skills-wrapper {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
+.skills-icon img {
+  width: 80px;
+  max-width: 200px;
+  padding: 2rem 2rem;
+}

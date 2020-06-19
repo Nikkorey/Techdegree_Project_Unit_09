@@ -1,0 +1,34 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 1.6rem;
+  color: var(dark-color);
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Reusable */
+.container {
+  width: 100%;
+  max-width: 140rem;
+  padding: 0 1.5rem;
+  margin: 0 auto;
+}

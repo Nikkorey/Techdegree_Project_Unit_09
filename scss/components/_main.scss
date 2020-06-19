@@ -1,0 +1,46 @@
+/* Hero section styles */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background: url(../../images/FJA_5593.JPG) left no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+  z-index: 0;
+  text-align: center;
+}
+
+.hero::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: inherit;
+  height: inherit;
+  background-color: $primacry-c--transparent-alt;
+  z-index: -1;
+}
+
+.main-heading {
+  color: #fff;
+  line-height: 1;
+  text-shadow: 1px 1px 1rem rgba(0, 0, 0, 0.5);
+  font-size: 3rem;
+}
+
+h1 {
+  position: relative;
+  display: inline-block;
+  text-transform: uppercase;
+}
+h1::after {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  bottom: 7px;
+  left: 0;
+  background: rgba(255, 255, 255, 0.2);
+  width: 100%;
+  height: 20%;
+}
